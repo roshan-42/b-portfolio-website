@@ -25,7 +25,7 @@ const Navbar = () => {
       
 
                 <div className={`${fix ? " h-10 fixed border border-1 " : " fixed h-16"} bg-white w-full py-4 flex  items-center justify-around transition-all ease-in-out`}>
-            <p className='font-medium text-3xl'>NAME</p>
+            <p className='font-medium text-3xl'>BIJAY</p>
             <div className='text-gray-700 flex gap-4'>
                 <p>Home</p>
                 <p>Service</p>
