@@ -7,6 +7,7 @@ import Chest from "./Components/Body/Chest";
 import Services from "./Components/Services/Services";
 import { motion, useScroll } from "framer-motion";
 import "./styles.css";
+import Experience from "./Components/Experience/Experience";
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
@@ -24,6 +25,11 @@ export default function Home() {
         <Chest />
         <Services />
       </div>
+      <div className="w-full bg-gray-200 ">
+        <Experience />
+
+      </div>
+
     </div>
   );
 }
